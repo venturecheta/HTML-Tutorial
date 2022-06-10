@@ -10,7 +10,7 @@
 <body>
     <section>
        <nav>
-           <img src="./assets/chelseafc.png" alt="">
+           <img src="./trivago.png" class="logo" alt="">
            <ul>
                <li><a href="#about">About</a></li>
                <li><a href="#apppurchase">App Purchase</a></li>
@@ -18,44 +18,55 @@
            </ul>
        </nav>
        <header>
-          <div>
+           <div class="row">
+          <div class="'home__description">
               <h1>Best place for the updates from the best in London!</h1>
-              <p>Chelsea's Web3 decentralised app goes live!</p>
+              <p class="subheader">Chelsea's Web3 decentralised app goes live!</p>
+              <button class="home__description--button">Start now</button>
           </div> 
           <figure>
-              <img src="../assets/iphone_13_PNG31.png" alt="Home page image">
+              <img src="./iphone13.png" alt="Home page image">
           </figure>
+        </div>
        </header>
     </section>
    <main>
        <section id="about">
            <h2>About</h2>
-           <div>
-               <p>
+           <div class="row">
+           <div class="section_description">
+           <div class="section__description--wrapper">
+               <p class="section__description--para">
                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facilis repudiandae. Eveniet magni debitis nesciunt fugiat explicabo adipisci sit, quasi tenetur eius quaerat distinctio quibusdam beatae, suscipit aliquid exercitationem rerum?
                </p>
-               <p>
+               <p class="section__description--para">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facilis repudiandae. Eveniet magni debitis nesciunt fugiat explicabo adipisci sit, quasi tenetur eius quaerat distinctio quibusdam beatae, suscipit aliquid exercitationem rerum?
                </p>
            </div>
-           <figure>
-               <img src="./assets/about.jpg" alt="">
+           <figure class="about__img--wrapper">
+               <img src="./about.jpg" alt="">
            </figure>
+        </div>
+    </div>
        </section>
 
-       <section id ="App Purchase & Discord">
+       <section id ="discord">
            <h2>App Purchase</h2>
-           <figure>
-               <img src="./assets/discord.png" alt="App Purchase & Discord">
+           <div class="row">
+           <div class="section_description">
+           <figure class="about__img--wrapper">
+               <img src="./discord.png" alt="App Purchase & Discord">
            </figure>
-           <div>
-               <p>
+           <div class="section__description--wrapper">
+               <p class="section__description--para">
                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi labore quis dolores velit aliquid, sint maiores ipsum. Minus corrupti, doloribus laborum maxime nobis consequuntur id, provident in deleniti, dolor vitae.
                </p>
-               <p>
+               <p class="section__description--para">
                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate nulla in, quibusdam ducimus rem maiores officia voluptas facilis, dolore nobis adipisci culpa, error explicabo dolorum. Vitae eveniet natus dolores dignissimos!
                </p>
            </div>
+           <div>
+        </div>
        </section>
        <section id="Contact">
            <h2>Contact</h2>
@@ -64,17 +75,18 @@
                <input type="text" placeholder="jane@example.com">
                <span>Message</span>
                <textarea name="text" placeholder="jane@example.com" ></textarea>
+               <button>Contact Us!</button>
            </form>
        </section>
    </main> 
 
    <footer>
-       <img src="../assets/index/Chelsea_FC.svg.png" alt="">
-       <div>
-           <a href="#about">About</a>
-           <a href="#apppurchase">App Purchase</a>
-           <a href="#discord">Discord</a>
-           <a href="#contact">Contact</a>
+       <img class="footer__logo" src="./trivago.png" alt="">
+       <div class="footer__links">
+           <a class="footer__link" href="#about">About</a>
+           <a class="footer__link" href="#apppurchase">App Purchase</a>
+           <a class="footer__link" href="#discord">Discord</a>
+           <a class="footer__link" href="#contact">Contact</a>
        </div>
        <p>Copyright Chelsea</p>
    </footer>
